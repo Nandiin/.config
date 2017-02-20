@@ -1,0 +1,11 @@
+[alias]
+	gcfg = config --global
+	cm = commit
+	st = status
+	lg = log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+	bk2 = reset --hard
+	co = checkout
+	us = reset HEAD
+[user]
+	name = Nandiin
+	email = nandiin@163.com
