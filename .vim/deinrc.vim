@@ -8,14 +8,15 @@ if dein#load_state('~/.vim/dein')
 
 	""" Plugins
 
-	call dein#add('Shougo/dein.vim')
+	call dein#add('Shougo/dein.vim') " dein plugin manager
+	call dein#add('keith/swift.vim') " Syntax and indent for Swift
 	
 	""""""""""""""""""""""""""""""""
 
 	""" Plugins only support neovim 
 
-	call dein#add('Shougo/denite.nvim', {'if': "has('nvim')"})
-	call dein#add('Shougo/deoplete.nvim', {'if': "has('nvim')"})
+	call dein#add('Shougo/denite.nvim', {'if': "has('nvim')"}) " Fuzzy searcher, more usages?
+	call dein#add('Shougo/deoplete.nvim', {'if': "has('nvim')"}) " auto completion
 
 	""""""""""""""""""""""""""""""""
 
