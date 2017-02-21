@@ -51,7 +51,8 @@ leaves=($(find "$base" -type f \
 	-not -name .gitignore \
 	-not -name install.sh \
 	-not -name README.md \
-	))
+	-not -name "*.swp"
+))
 		
 destinations=($(echo "${leaves[@]}" | sed -e "s?$base/??g"))
 
@@ -60,7 +61,9 @@ link "${destinations[@]}" " ${destinations[@]}"
 
 # nvim
 
-nvim_leaves=($(find "$base/.config/nvim" -type f))
+nvim_leaves=($(find "$base/.config/nvim" -type f \
+	-not -name "*.swp"
+))
 
 nvim_destinations=($(echo "${nvim_leaves[@]}" | sed -e "s?$base/??g"))
 
