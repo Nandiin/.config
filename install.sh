@@ -56,7 +56,7 @@ leaves=($(find "$base" -type f \
 		
 destinations=($(echo "${leaves[@]}" | sed -e "s?$base/??g"))
 
-# sources has same relative path with destinations
+# sources have same relative path with destinations
 link "${destinations[@]}" " ${destinations[@]}"
 
 # nvim
