@@ -17,3 +17,6 @@
 !.vimrc
 !.vim
 !.vim/deinrc.vim
+
+# install script
+!install.sh
