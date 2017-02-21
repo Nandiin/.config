@@ -1,7 +1,19 @@
 *
+# must include .gitignore itself.
 !.gitignore
+
+# global git configuration (core.username, email, alias, etc.)
 !.gitconfig
-!config.fish
-!.iterm2.json
-!com.googlecode.iterm2.plist
+
+# README file
 !README.md
+
+# custom fish config (alias, etc)
+!.config
+!.config/fish
+!.config/fish/config.fish
+
+# vim configurations
+!.vimrc
+!.vim
+!.vim/deinrc.vim
