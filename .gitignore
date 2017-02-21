@@ -18,6 +18,7 @@
 !.vim
 !.vim/deinrc.vim
 !.vim/deoplete.vim
+!.vim/solarized.vim
 
 # install script
 !install.sh
