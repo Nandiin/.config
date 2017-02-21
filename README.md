@@ -11,6 +11,7 @@ exist or not:
     - **fish**: `~/.config/fish/config.fish`
     - **vim**: `~/.vimrc`, several files in `~/.vim`
     - **git**: `~/.gitconfig`
+    - **nvim**: `~/.config/nvim/init.vim` `~/.config/nvim/after/ftplugin/swift.vim`
 
 
 ### Usage
