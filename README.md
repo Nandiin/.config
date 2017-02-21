@@ -1,5 +1,4 @@
 #.dotfiles
----
 Repository for my dotfiles.
 
 ### Caveats
