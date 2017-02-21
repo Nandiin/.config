@@ -9,7 +9,7 @@ Runing `./install.sh` will:
 - set following configuration files regardless of corresponding packages/commands
 exist or not:
     - **fish**: `~/.config/fish/config.fish`
-    - **vim**: `~/.vimrc`, several files at `~/.vim`
+    - **vim**: `~/.vimrc`, several files in `~/.vim`
     - **git**: `~/.gitconfig`
 
 
