@@ -17,6 +17,7 @@
 !.vimrc
 !.vim
 !.vim/deinrc.vim
+!.vim/deoplete.vim
 
 # install script
 !install.sh
