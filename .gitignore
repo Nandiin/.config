@@ -23,5 +23,10 @@
 !.vim/after/ftplugin
 !.vim/after/ftplugin/swift.vim
 
+#nvim configurations
+!.config/nvim
+!.config/nvim/after
+!.config/nvim/init.vim
+
 # install script
 !install.sh
