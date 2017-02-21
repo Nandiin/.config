@@ -19,6 +19,9 @@
 !.vim/deinrc.vim
 !.vim/deoplete.vim
 !.vim/solarized.vim
+!.vim/after
+!.vim/after/ftplugin
+!.vim/after/ftplugin/swift.vim
 
 # install script
 !install.sh
