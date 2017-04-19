@@ -19,13 +19,9 @@
 !.vim/deinrc.vim
 !.vim/deoplete.vim
 !.vim/solarized.vim
-!.vim/after
-!.vim/after/ftplugin
-!.vim/after/ftplugin/swift.vim
 
 #nvim configurations
 !.config/nvim
-!.config/nvim/after
 !.config/nvim/init.vim
 
 # install script
