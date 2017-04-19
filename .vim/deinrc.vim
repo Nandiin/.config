@@ -11,6 +11,7 @@ if dein#load_state('~/.vim/dein')
     call dein#add('Shougo/dein.vim') " dein plugin manager
     call dein#add('keith/swift.vim') " Syntax and indent for Swift
     call dein#add('altercation/vim-colors-solarized') " solarized color scheme
+    call dein#add('python-mode/python-mode') " python
 
     """"""""""""""""""""""""""""""""
 
